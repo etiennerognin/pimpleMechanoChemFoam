@@ -1,0 +1,25 @@
+# Source documentation
+This source files provide the solver and test cases used in "Laminar flow-induced scission kinetics of polymers in dilute solutions" by Etienne Rognin, Niamh Willis-Fox, Tommy Z. Zhao, Talal A. Aljohani, and Ronan Daly.
+
+## Disclaimer
+This source code is released in the hope that it will be useful, but without any warranty.
+
+## License
+This source code follows OpenFOAM licensing. You can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. See  [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/)
+
+## Content
+* pimpleMechanoChemFoam: source for the solver
+* capillary: case folder for the fused glass capillary flow.
+* pinhole25: case folder for the pinhole 25 flow.
+* pinhole50: case folder for the pinhole 50 flow.
+
+
+## Installation and usage
+* Install OpenFOAM v6. Source code [here](https://github.com/OpenFOAM/OpenFOAM-6).
+
+* Install the solver using the standard OpenFOAM procedure for new solvers (see OpenFOAM documentation).
+
+* Run the case using the pimpleMechanoChemFoam command, or, for parallel runs the provided bash scripts.
+
+## Author
+Etienne Rognin
