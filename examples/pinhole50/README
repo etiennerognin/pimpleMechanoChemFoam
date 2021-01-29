@@ -1,0 +1,2 @@
+Start this case with a time step of 1.e-8 (s) for a few steps; then a time step 
+of 1.e-7 (s) can be used to save computational time.
